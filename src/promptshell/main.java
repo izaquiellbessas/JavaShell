@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package java.shell;
+package promptshell;
 
 import javax.swing.JOptionPane;
 import javax.swing.Timer;
@@ -37,6 +37,7 @@ public class main extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Prompt Shell");
+        setPreferredSize(new java.awt.Dimension(600, 400));
         setSize(new java.awt.Dimension(500, 300));
         getContentPane().setLayout(new java.awt.GridBagLayout());
 
